@@ -67,4 +67,16 @@
       </plugin>
     </plugins>
   </build>
+  <distributionManagement>
+    <repository>
+        <id>central</id>
+        <name>jfrog-artifactory-pro-releases</name>
+        <url>http://34.121.171.11:8081/artifactory/libs-release-local</url>
+    </repository>
+    <snapshotRepository>
+        <id>snapshots</id>
+        <name>jfrog-artifactory-pro-snapshots</name>
+        <url>http://34.121.171.11:8081/artifactory/libs-release-local</url>
+    </snapshotRepository>
+</distributionManagement>
 </project>
