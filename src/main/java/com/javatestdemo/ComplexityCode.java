@@ -1,16 +1,16 @@
 package com.javatestdemo;
 
-public class StringCompare {
+public class ComplexityCode {
 
     int id = 0;
     String name = "dummy";
     String description = "false";
     boolean isValid = false;
 
-    public StringCompare() {
+    public ComplexityCode() {
     }
 
-    public StringCompare(int id, String name, String description, boolean isValid) {
+    public ComplexityCode(int id, String name, String description, boolean isValid) {
         this.id = id;
         this.name = name;
         this.description = description;
