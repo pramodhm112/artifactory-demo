@@ -2,7 +2,7 @@ package com.javatestdemo;
 
 public class StringCompare {
 	
-	static int isStringEqual (String a, String b) {
+	static String isStringEqual (String a, String b) {
       if (a == b) {
         return "I'm Right";
 		  }
